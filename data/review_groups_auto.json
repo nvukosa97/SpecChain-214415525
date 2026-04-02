@@ -2,11 +2,222 @@
   "groups": [
     {
       "group_id": "A1",
-      "theme": "Workout logging issues",
-      "review_ids": ["rev_12", "rev_33", "rev_41", "rev_92"],
+      "theme": "Positive Experience",
+      "review_ids": [
+        "rev_3",
+        "rev_6",
+        "rev_10",
+        "rev_16"
+      ],
       "example_reviews": [
-        "The app crashes whenever I try to log a run.",
-        "Logging workouts causes the app to freeze."
+        "really helped turn negative thought positive mindset",
+        "best app depressed confused people like",
+        "helped suicidal thought",
+        "love utilizes cbt technique help break negative thought cycle relieve anxiety heavy emotion help reset actual video movement meditation thought prompt solution focused"
+      ]
+    },
+    {
+      "group_id": "A2",
+      "theme": "Technical Issues",
+      "review_ids": [
+        "rev_8",
+        "rev_19",
+        "rev_21",
+        "rev_39"
+      ],
+      "example_reviews": [
+        "app really helpful towards mental health recovery",
+        "slow unoptimized response feel robotic relevant said",
+        "waste time dont respawn im asking like chatting first zeroone chatgpt",
+        "kept glitching saying check erasing long conversation start didnt remember previous coversations added stress end instead helping manage"
+      ]
+    },
+    {
+      "group_id": "A3",
+      "theme": "Negative Experience",
+      "review_ids": [
+        "rev_1",
+        "rev_5",
+        "rev_13",
+        "rev_24"
+      ],
+      "example_reviews": [
+        "terrible text therapist",
+        "install app searching something free paid",
+        "terrible apphad appointment coach show",
+        "worst got feeling worse ever"
+      ]
+    },
+    {
+      "group_id": "A4",
+      "theme": "Request for More Languages",
+      "review_ids": [
+        "rev_20",
+        "rev_32",
+        "rev_44"
+      ],
+      "example_reviews": [
+        "please update ai speak language besides english indonesian",
+        "find good app chat tell problem give idea handle thing like stress anxiety etc",
+        "helped lot suggest pretty straightforward much hows help worth"
+      ]
+    },
+    {
+      "group_id": "A5",
+      "theme": "Appreciation for Content",
+      "review_ids": [
+        "rev_4",
+        "rev_11",
+        "rev_26",
+        "rev_30"
+      ],
+      "example_reviews": [
+        "app really helpful towards mental health recovery",
+        "really good app would better remembers every conversation",
+        "app make feel understood guided helped throughout conversation constant question asked personal question emotion well executed enjoyed also feel like one thousand eight hundred author version picasso three",
+        "good app helpful exercise even nonpaid version result stress anxiety"
+      ]
+    },
+    {
+      "group_id": "A6",
+      "theme": "Improvement Suggestions",
+      "review_ids": [
+        "rev_31",
+        "rev_38",
+        "rev_42"
+      ],
+      "example_reviews": [
+        "dont like ai chat frustrated feel like talking circle",
+        "bland generic advice",
+        "new app quick chat negative thought ive come away feeling better"
+      ]
+    },
+    {
+      "group_id": "A7",
+      "theme": "Effectiveness for Mental Health",
+      "review_ids": [
+        "rev_2",
+        "rev_9",
+        "rev_25",
+        "rev_29"
+      ],
+      "example_reviews": [
+        "helpful app recommend everyone try",
+        "wysa currently helping tough situation work home wysa may rudimentary far mental health care go available twentyfourseven really help",
+        "stupid app cant enev go ahead st page ask referral link code dont closed app",
+        "spent five minute trying talk chat bot whoever wrotescripted thing horrible job doesnt seem process anything ever say respond appropriately really terrible therapy speak someone watch lot mr rogers made app instead anyone actual knowledge there one thing could change would deleting app definitely"
+      ]
+    },
+    {
+      "group_id": "A8",
+      "theme": "Comparison to Other Therapies",
+      "review_ids": [
+        "rev_46",
+        "rev_51",
+        "rev_56"
+      ],
+      "example_reviews": [
+        "need companion help deal emotion daily highly recommend app",
+        "broke",
+        "id give ai chat three star tool five really quite good wish could get without chatting penguin first"
+      ]
+    },
+    {
+      "group_id": "A9",
+      "theme": "Monetization Concerns",
+      "review_ids": [
+        "rev_47",
+        "rev_52",
+        "rev_57"
+      ],
+      "example_reviews": [
+        "app slow frustrating use",
+        "absolutely brilliant non social medium app highly recommend ad moment time helping",
+        "first time wysa love"
+      ]
+    },
+    {
+      "group_id": "A10",
+      "theme": "Long-term Usefulness",
+      "review_ids": [
+        "rev_48",
+        "rev_53",
+        "rev_58"
+      ],
+      "example_reviews": [
+        "cool",
+        "effective",
+        "bland generic advice"
+      ]
+    },
+    {
+      "group_id": "A11",
+      "theme": "Specific Feature Requests",
+      "review_ids": [
+        "rev_49",
+        "rev_54",
+        "rev_59"
+      ],
+      "example_reviews": [
+        "app great good substitute dont anyone talk good psychological tip emotion pretty great app",
+        "good really liked mindful breathing relaxation tool helped helpful",
+        "worked well conversation im impressed"
+      ]
+    },
+    {
+      "group_id": "A12",
+      "theme": "Ease of Use",
+      "review_ids": [
+        "rev_50",
+        "rev_55",
+        "rev_60"
+      ],
+      "example_reviews": [
+        "started feel amazing use",
+        "health conscious enjoy application like",
+        "feel like chatting customer support bot designed five year ago proper llm"
+      ]
+    },
+    {
+      "group_id": "A13",
+      "theme": "AI Conversational Quality",
+      "review_ids": [
+        "rev_61",
+        "rev_66",
+        "rev_71"
+      ],
+      "example_reviews": [
+        "edit used love app subscribed today meditation work simply push play mediation app suck instead sleeping ive spent thirty min trying get work im awake love app helpful anxiety depression guide reframing thought effective way process look thing realistically instead catastrophizing happened",
+        "helping much help whatever problem support like one two day ive felt way better recently",
+        "since seems app people mental health issue maybe answer review actually quite sad youre literally running ai bot people telling thing personal feeling stuff run issue dont answer certain people back picking choosing answer"
+      ]
+    },
+    {
+      "group_id": "A14",
+      "theme": "Emotional Connection",
+      "review_ids": [
+        "rev_62",
+        "rev_67",
+        "rev_72"
+      ],
+      "example_reviews": [
+        "better ai",
+        "subscription expensive end day paid therapist ai pet something basically mindfulness would paid maybe ai bit intelligence self care wasnt overkill dont see nothing new offered im sure intelligent pr team gonna good comeback thou",
+        "lame app gemini suggested disappointing"
+      ]
+    },
+    {
+      "group_id": "A15",
+      "theme": "Overall Satisfaction",
+      "review_ids": [
+        "rev_63",
+        "rev_68",
+        "rev_73"
+      ],
+      "example_reviews": [
+        "helping relax better attitude",
+        "amazing experience",
+        "doesnt really seem fair price tbh extremely high sub cost classic free week make forget till youre charged predatory ai llm bot best charge money vurable person truefully disgusting rather dystopian"
       ]
     }
   ]

@@ -1,0 +1,306 @@
+{
+  "personas": [
+    {
+      "id": "P1",
+      "name": "Hopeful Mental Health Seeker",
+      "description": "A user seeking mental health support and hopeful for positive change.",
+      "derived_from_group": "A1",
+      "goals": [
+        "Find effective mental health support",
+        "Improve mental well-being"
+      ],
+      "pain_points": [
+        "Previous negative experiences with mental health support",
+        "Difficulty finding the right resources"
+      ],
+      "context": [
+        "Actively seeking mental health solutions",
+        "Open to trying different approaches"
+      ],
+      "constraints": [
+        "Needs to feel hopeful and motivated",
+        "Seeking reliable support"
+      ],
+      "evidence_reviews": [
+        "rev_3",
+        "rev_6",
+        "rev_10",
+        "rev_16"
+      ]
+    },
+    {
+      "id": "P2",
+      "name": "Frustrated Technical User",
+      "description": "A user experiencing technical difficulties with the app.",
+      "derived_from_group": "A2",
+      "goals": [
+        "Resolve technical issues",
+        "Use the app effectively"
+      ],
+      "pain_points": [
+        "App glitches and slow performance",
+        "Frustration with unresponsive support"
+      ],
+      "context": [
+        "Needs a stable and functional app",
+        "Seeking efficient support"
+      ],
+      "constraints": [
+        "Technical issues hinder progress",
+        "Seeking a reliable app experience"
+      ],
+      "evidence_reviews": [
+        "rev_8",
+        "rev_19",
+        "rev_21",
+        "rev_39"
+      ]
+    },
+    {
+      "id": "P3",
+      "name": "Disappointed User",
+      "description": "A user with a negative experience with the app.",
+      "derived_from_group": "A3",
+      "goals": [
+        "Find an effective mental health solution",
+        "Improve mental well-being"
+      ],
+      "pain_points": [
+        "Negative experience with the app",
+        "Difficulty finding reliable support"
+      ],
+      "context": [
+        "Seeking a better alternative",
+        "Open to trying different approaches"
+      ],
+      "constraints": [
+        "Needs to feel supported",
+        "Seeking a reliable solution"
+      ],
+      "evidence_reviews": [
+        "rev_1",
+        "rev_5",
+        "rev_13",
+        "rev_24"
+      ]
+    },
+    {
+      "id": "P4",
+      "name": "Language-Constrained User",
+      "description": "A user seeking support in their native language.",
+      "derived_from_group": "A4",
+      "goals": [
+        "Access mental health support in their native language",
+        "Improve mental well-being"
+      ],
+      "pain_points": [
+        "Limited language options",
+        "Difficulty finding support in their native language"
+      ],
+      "context": [
+        "Seeking language-specific support",
+        "Open to trying different approaches"
+      ],
+      "constraints": [
+        "Needs language-specific support",
+        "Seeking a reliable solution"
+      ],
+      "evidence_reviews": [
+        "rev_20",
+        "rev_32",
+        "rev_44"
+      ]
+    },
+    {
+      "id": "P5",
+      "name": "Appreciative User",
+      "description": "A user who appreciates the app's content and features.",
+      "derived_from_group": "A5",
+      "goals": [
+        "Continue to access helpful content",
+        "Improve mental well-being"
+      ],
+      "pain_points": [
+        "Some limitations in the app's content",
+        "Seeking more features or support"
+      ],
+      "context": [
+        "Actively using the app's features",
+        "Seeking to continue progress"
+      ],
+      "constraints": [
+        "Values the app's content and features",
+        "Seeking continued support"
+      ],
+      "evidence_reviews": [
+        "rev_4",
+        "rev_11",
+        "rev_26",
+        "rev_30"
+      ]
+    },
+    {
+      "id": "P6",
+      "name": "Suggestive User",
+      "description": "A user with suggestions for improving the app.",
+      "derived_from_group": "A6",
+      "goals": [
+        "Improve the app's features and support",
+        "Enhance their experience"
+      ],
+      "pain_points": [
+        "Some limitations in the app's features",
+        "Seeking more effective support"
+      ],
+      "context": [
+        "Actively using the app and seeking improvement",
+        "Open to providing feedback"
+      ],
+      "constraints": [
+        "Seeking a more effective and supportive app",
+        "Values the app's potential"
+      ],
+      "evidence_reviews": [
+        "rev_31",
+        "rev_38",
+        "rev_42"
+      ]
+    },
+    {
+      "id": "P7",
+      "name": "Mental Health Seeker",
+      "description": "A user seeking effective mental health support.",
+      "derived_from_group": "A7",
+      "goals": [
+        "Find effective mental health support",
+        "Improve mental well-being"
+      ],
+      "pain_points": [
+        "Difficulty finding reliable support",
+        "Seeking a more effective solution"
+      ],
+      "context": [
+        "Actively seeking mental health solutions",
+        "Open to trying different approaches"
+      ],
+      "constraints": [
+        "Needs to feel supported",
+        "Seeking a reliable solution"
+      ],
+      "evidence_reviews": [
+        "rev_2",
+        "rev_9",
+        "rev_25",
+        "rev_29"
+      ]
+    },
+    {
+      "id": "P8",
+      "name": "Comparative User",
+      "description": "A user comparing the app to other therapies.",
+      "derived_from_group": "A8",
+      "goals": [
+        "Evaluate the app's effectiveness",
+        "Compare to other therapies"
+      ],
+      "pain_points": [
+        "Difficulty evaluating the app's effectiveness",
+        "Seeking a more comprehensive solution"
+      ],
+      "context": [
+        "Researching and evaluating mental health options",
+        "Seeking a reliable solution"
+      ],
+      "constraints": [
+        "Needs to evaluate the app's effectiveness",
+        "Seeking a comprehensive solution"
+      ],
+      "evidence_reviews": [
+        "rev_46",
+        "rev_51",
+        "rev_56"
+      ]
+    },
+    {
+      "id": "P9",
+      "name": "Monetization-Conscious User",
+      "description": "A user concerned about the app's monetization.",
+      "derived_from_group": "A9",
+      "goals": [
+        "Evaluate the app's value for money",
+        "Make an informed decision about subscription"
+      ],
+      "pain_points": [
+        "Concerns about the app's pricing",
+        "Seeking a fair and transparent monetization model"
+      ],
+      "context": [
+        "Evaluating the app's features and pricing",
+        "Seeking a reliable and affordable solution"
+      ],
+      "constraints": [
+        "Needs to feel that the app is a good value",
+        "Seeking a fair and transparent monetization model"
+      ],
+      "evidence_reviews": [
+        "rev_47",
+        "rev_52",
+        "rev_57"
+      ]
+    },
+    {
+      "id": "P10",
+      "name": "Long-Term User",
+      "description": "A user seeking long-term support and effectiveness.",
+      "derived_from_group": "A10",
+      "goals": [
+        "Continue to access effective support",
+        "Maintain progress over time"
+      ],
+      "pain_points": [
+        "Some limitations in the app's long-term effectiveness",
+        "Seeking continued support and progress"
+      ],
+      "context": [
+        "Actively using the app over an extended period",
+        "Seeking to maintain progress"
+      ],
+      "constraints": [
+        "Values the app's long-term effectiveness",
+        "Seeking continued support and progress"
+      ],
+      "evidence_reviews": [
+        "rev_48",
+        "rev_53",
+        "rev_58"
+      ]
+    },
+    {
+      "id": "P11",
+      "name": "Feature-Specific User",
+      "description": "A user seeking specific features or functionality.",
+      "derived_from_group": "A11",
+      "goals": [
+        "Access specific features or functionality",
+        "Enhance their experience"
+      ],
+      "pain_points": [
+        "Some limitations in the app's features",
+        "Seeking more effective support"
+      ],
+      "context": [
+        "Actively using the app and seeking specific features",
+        "Open to providing feedback"
+      ],
+      "constraints": [
+        "Seeking a more effective and supportive app",
+        "Values the app's potential"
+      ],
+      "evidence_reviews": [
+        "rev_49",
+        "rev_54",
+        "rev_59"
+      ]
+    }
+  ]
+}

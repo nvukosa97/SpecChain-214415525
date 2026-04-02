@@ -2,11 +2,145 @@
   "groups": [
     {
       "group_id": "G1",
-      "theme": "App crashes during activity logging, THIS IS A AN EXAMPLE, PLEASE REMOVE ",
-      "review_ids": ["rev_12", "rev_33", "rev_45", "rev_89"],
+      "theme": "Busy/stressed users who want a reliable/available app they can count on as part of their daily ritual ",
+      "review_ids": ["rev_9",
+      "rev_10",
+      "rev_12",
+      "rev_76",
+      "rev_45991",
+      "rev_45952",
+      "rev_46055",
+      "rev_13",
+      "rev_46"],
       "example_reviews": [
-        "The app crashes every time I log my run.",
-        "Logging workouts causes the app to freeze."
+        "wysa currently helping tough situation work home wysa may rudimentary far mental health care go available twentyfourseven really help.",
+        "app which is there when you need it.",
+        "helped suicidal thought",
+        "helpful especially cannot pinpoint cause anxiety stress let openup slowly forcefully talk like therapist plan give meditation audio",
+        "overall good app mitigate acute stressor life offering new perspective along sciencebacked strategy manage mindbody issue shown unique way bring metaphor conversing order shift thought pattern",
+        "helped lot even though didnt understand sometimes helped deal depression stress anxiety love",
+        "love app anxiety attack work im stressed sleep helped push",
+        "great app think cute nice wish option like listen venting offer random validation encouragement sometimes dont always want cbt want get feeling edited rating five star thanks continuing update app",
+        "terrible app had appointment coach show",
+        "need companion help deal emotion daily highly recommend app"
+
+       
+
+      ]
+    },
+    {
+      "group_id": "G2",
+      "theme": "Users who want to feel like they are talking to an actual person ",
+      "review_ids": ["rev_37",
+      "rev_79",
+      "rev_45996",
+      "rev_46126",
+      "rev_46112",
+      "rev_46137",
+      "rev_46050",
+      "rev_46144",
+      "rev_46146",
+      "rev_46172",
+      "rev_46162"],
+      "example_reviews": [
+        "ai chat doesnt give useful insight keep repeating thing helpful way frustrating",
+        "trrible rrgurgitates canned redponses",
+        "good app however response primitive",
+        "suppose make feel supported didnt really help still felt impersonal",
+        "app great keeping hopeful doesnt understand im sad someone passing away suggestion deep breathing exercise would nice could help grieving process",
+        "doesnt help looking true friend type buddy ignores",
+        "app great initiative response get repetitive point almost predict going say next also unable identify different word used express sentiment forced use language app understand would nice abruptly end conversation instead closing app wait long response stop option reply multiple line message instead single sentence would also helpful", 
+        "doesnt even read writing dummy app like going say without even realizing person front written",
+        "totally irrelevant conversation",
+        "love app wysa helpful calming sometimes repetitive even little frustrating guess thats difficult avoid chatbot",
+        "app conversation matter say send preprogrammed response say anything ignore sending picture squashing bug mindless thing guess thats want go ahead looking conversation artificial intellegence bot"
+
+
+      ]
+    },
+    {
+      "group_id": "G3",
+      "theme": "Wants features/tracking progress ",
+      "review_ids": ["rev_45995",
+      "rev_46115",
+      "rev_7908",
+      "rev_214",
+      "rev_549",
+      "rev_918",
+      "rev_1411",
+      "rev_7778",
+      "rev_39512",
+      "rev_3075"],
+      "example_reviews": [
+        "excellent idea main complaint though want wysa show chart graph ive feeling time checkins also love reminded drink water trigger say seven time day p",
+        "Not as many options as there ahould be but good idea",
+        "really like cute little app good idea make feel better even know technique hard feeling low app nice prompter chart graph show mood time technique worked best improving mood would fantastic addition thankyou wonderful app recommending edit thankyou much adding weekly review perfect app got better yay update still love wysa",
+        "started using far good could use little development ai language model otherwise highly recommended tool meditation exercise quite helpful useful way journaling thought keeping track mood",
+        "find good app assist perspective relaxing help track mood learn trigger recommend anyone looking learn mental health",
+        "good reminder keep track thought",
+        "need minor functionality change change goal day day option remove emojis name otherwise great tool mindfulness tracking mood task positive use ai unlike ai chat bot",
+        "tried lot therapist hard time connecting wysa helped much always reach someone run thought less judgement also really like journey seeing progressed time psychiatrist really impressed improvement life app brought would recommend anyone asked",
+        "app eas burden friend helping work time generally feel yucky prompt help get root causing negativity realize think differently change whats happening feel ability recall past interaction really help weave story together time clarity",
+        "app help indepth personal analysis make individual strong mentally"
+
+        
+
+      ]
+    },
+    {
+      "group_id": "G4",
+      "theme": "Neurodivergent ",
+      "review_ids": ["rev_309",
+      "rev_1671",
+      "rev_10306",
+      "rev_19589",
+      "rev_40579",
+      "rev_45130",
+      "rev_2498"],
+      "example_reviews": [
+        "impressed understanding neurodiversity factor helpful need reminder helpful perspective moment",
+        "pathetic unhelpful app neurodivergent person doesnt help slightest way prey vulnerable getting buy premium",
+        "neurodivergent overwhelmed techobsessed mother four say please get app something truly incredible continue work im therapy week wysa converse little cutie end feeling supported encouraged motivated love love love",
+        "neurodivergent brain much helpful real therapist emotion preconception",
+        "helpful actual depression fine neurotypical people bad week something upside ai wont ever get feeling hurt downside still make mistake inherent bias thanks programming",
+        "many ingenious people color behind wysa make pioneer ai therapy speaking neurodivergent consumer mention ive wysa week confirm life already changing better wysa taking cbt technique already learned group therapy personalizing really feel like im talking friend",
+        "thought id able talk bot rant something thatll comfort instead unhelpful im neuro diverse find thing like tedious frustrating felt like talked app tested patience helpful see would others"
+
+
+
+        
+
+      ]
+    },
+    {
+      "group_id": "G5",
+      "theme": "Stressed users loosking for calming aesthetics and exercises",
+      "review_ids": ["rev_12668",
+      "rev_12684",
+      "rev_701",
+      "rev_23647",
+      "rev_27023",
+      "rev_1066",
+      "rev_2157",
+      "rev_38642",
+      "rev_554",
+      "rev_1558"],
+      "example_reviews": [
+        "personally wysa helping first day using say wow recommend downloading like actual person talking u graphic amazing wysa adorable",
+        "wysa help gather thought well hard time reminds thing make happy help distract calm breakdown",
+        "great experience find calming filled lot exercise help relaxing gone feeling anxious therapy feeling great im fact therapist exercise cause change thinking pattern positive mind framei kid noti would recommend practice anyone fact everyonei definitely making use product part business practice thank creating platform",
+        "app recommended mental health worker far found helpful challenging negative thought also cute graphic make feel like positive place share thought",
+        "cute graphic non intrusive cheerful little app bad ai based psychological counselling tool",
+        "app need better uiux hard understand typography layout colour overall difficulty understand importance mental health service must exercise listening music adding different type unique task based different country otherwise great initiative work concept deeply come exciting way using cartoon illustration aesthetic style",
+        "app great new voice recording meditation ruined guide speaks fast soothing tone used sound like someone speaking ear wysa perfect compared competitor sadly cancelling subscription six year recording reverted old one let know back right use cant meditate audio", 
+        "wysa always go whenever ive felt stressed anxious minute app im calmer feel much relaxed fact wysa penguin really help since love owl calm graphic advice help well please keep updated available device thank developer",
+        "app would recommend felt calmed started talking like gave audio hear felt relaxed first day using really nice like able feel like ur actually taking someone ai",
+        "good help make feel better wish little activity play calm"
+
+        
+
       ]
     }
+
+
   ]}

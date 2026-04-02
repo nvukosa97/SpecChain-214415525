@@ -3,13 +3,245 @@
     {
       "test_id": "T_auto_1",
       "requirement_id": "FR_auto_1",
-      "scenario": "Logging a workout without crashing",
+      "scenario": "User accesses the list of mental health support resources",
       "steps": [
-        "Open the workout logging screen",
-        "Enter workout details",
-        "Submit the workout"
+        "Launch the application",
+        "Navigate to the resources section",
+        "Verify the list of resources is displayed"
       ],
-      "expected_result": "The workout is saved successfully and the application remains stable."
+      "expected_result": "The list of mental health support resources is displayed, including reliable and relevant resources."
+    },
+    {
+      "test_id": "T_auto_2",
+      "requirement_id": "FR_auto_1",
+      "scenario": "User searches for a specific mental health resource",
+      "steps": [
+        "Launch the application",
+        "Navigate to the resources section",
+        "Search for a specific resource",
+        "Verify the search results"
+      ],
+      "expected_result": "The search results display relevant resources, including the searched resource."
+    },
+    {
+      "test_id": "T_auto_3",
+      "requirement_id": "FR_auto_2",
+      "scenario": "User tracks their mental well-being progress over time",
+      "steps": [
+        "Launch the application",
+        "Navigate to the progress tracking section",
+        "Log a mental well-being update",
+        "Verify the update is displayed in the progress log"
+      ],
+      "expected_result": "The user's mental well-being progress is accurately tracked and displayed over time."
+    },
+    {
+      "test_id": "T_auto_4",
+      "requirement_id": "FR_auto_2",
+      "scenario": "User views their progress chart",
+      "steps": [
+        "Launch the application",
+        "Navigate to the progress tracking section",
+        "View the progress chart",
+        "Verify the chart displays accurate data"
+      ],
+      "expected_result": "The progress chart displays accurate and up-to-date information."
+    },
+    {
+      "test_id": "T_auto_5",
+      "requirement_id": "FR_auto_3",
+      "scenario": "User experiences a technical issue and reports it",
+      "steps": [
+        "Launch the application",
+        "Simulate a technical issue",
+        "Report the issue to the support team",
+        "Verify the issue is acknowledged and resolved"
+      ],
+      "expected_result": "The technical issue is promptly resolved, and the application provides a stable experience."
+    },
+    {
+      "test_id": "T_auto_6",
+      "requirement_id": "FR_auto_4",
+      "scenario": "User requests technical support",
+      "steps": [
+        "Launch the application",
+        "Navigate to the support section",
+        "Request technical support",
+        "Verify the support response is timely and effective"
+      ],
+      "expected_result": "The support team responds in a timely and effective manner, resolving the issue."
+    },
+    {
+      "test_id": "T_auto_7",
+      "requirement_id": "FR_auto_5",
+      "scenario": "User accesses the mental health solution",
+      "steps": [
+        "Launch the application",
+        "Verify the application's content and features"
+      ],
+      "expected_result": "The application provides a trustworthy and effective mental health solution."
+    },
+    {
+      "test_id": "T_auto_8",
+      "requirement_id": "FR_auto_6",
+      "scenario": "User searches for reliable support",
+      "steps": [
+        "Launch the application",
+        "Search for reliable support",
+        "Verify the search results"
+      ],
+      "expected_result": "The application provides relevant and trustworthy results for reliable support."
+    },
+    {
+      "test_id": "T_auto_9",
+      "requirement_id": "FR_auto_7",
+      "scenario": "User accesses mental health support in their native language",
+      "steps": [
+        "Launch the application",
+        "Select a language",
+        "Verify the application's content is translated"
+      ],
+      "expected_result": "The application provides mental health support in the selected language."
+    },
+    {
+      "test_id": "T_auto_10",
+      "requirement_id": "FR_auto_8",
+      "scenario": "User evaluates language-specific support",
+      "steps": [
+        "Launch the application",
+        "Select a language",
+        "Evaluate the language-specific support"
+      ],
+      "expected_result": "The language-specific support is accurate and reliable."
+    },
+    {
+      "test_id": "T_auto_11",
+      "requirement_id": "FR_auto_9",
+      "scenario": "User accesses helpful content and features",
+      "steps": [
+        "Launch the application",
+        "Verify the application's content and features"
+      ],
+      "expected_result": "The application provides valuable and relevant information."
+    },
+    {
+      "test_id": "T_auto_12",
+      "requirement_id": "FR_auto_10",
+      "scenario": "User provides feedback on content and features",
+      "steps": [
+        "Launch the application",
+        "Provide feedback",
+        "Verify the feedback is acknowledged"
+      ],
+      "expected_result": "The application considers and incorporates the user's feedback into future updates."
+    },
+    {
+      "test_id": "T_auto_13",
+      "requirement_id": "FR_auto_11",
+      "scenario": "User suggests new features and improvements",
+      "steps": [
+        "Launch the application",
+        "Provide suggestions",
+        "Verify the suggestions are acknowledged"
+      ],
+      "expected_result": "The application considers and evaluates the user's suggestions for future updates."
+    },
+    {
+      "test_id": "T_auto_14",
+      "requirement_id": "FR_auto_12",
+      "scenario": "User evaluates prioritization of suggestions",
+      "steps": [
+        "Launch the application",
+        "Provide suggestions",
+        "Verify the prioritization of suggestions"
+      ],
+      "expected_result": "The application provides clear communication on the prioritization and implementation of suggestions."
+    },
+    {
+      "test_id": "T_auto_15",
+      "requirement_id": "FR_auto_13",
+      "scenario": "User accesses effective mental health support and resources",
+      "steps": [
+        "Launch the application",
+        "Verify the application's content and features"
+      ],
+      "expected_result": "The application provides trustworthy and effective mental health support and resources."
+    },
+    {
+      "test_id": "T_auto_16",
+      "requirement_id": "FR_auto_14",
+      "scenario": "User tracks progress and sets goals",
+      "steps": [
+        "Launch the application",
+        "Track progress",
+        "Set goals",
+        "Verify the progress and goals are displayed"
+      ],
+      "expected_result": "The application displays accurate and relevant information on progress and goals."
+    },
+    {
+      "test_id": "T_auto_17",
+      "requirement_id": "FR_auto_15",
+      "scenario": "User evaluates the app's effectiveness",
+      "steps": [
+        "Launch the application",
+        "Verify the application's effectiveness data"
+      ],
+      "expected_result": "The application provides accurate and relevant data on its effectiveness and comparisons to other therapies."
+    },
+    {
+      "test_id": "T_auto_18",
+      "requirement_id": "FR_auto_16",
+      "scenario": "User compares the app to other mental health options",
+      "steps": [
+        "Launch the application",
+        "Compare the app to other options",
+        "Verify the comparison data"
+      ],
+      "expected_result": "The application provides clear and relevant information for comparing the app to other mental health options."
+    },
+    {
+      "test_id": "T_auto_19",
+      "requirement_id": "FR_auto_17",
+      "scenario": "User evaluates pricing for features and services",
+      "steps": [
+        "Launch the application",
+        "Verify the pricing model"
+      ],
+      "expected_result": "The application provides transparent and fair pricing for its features and services."
+    },
+    {
+      "test_id": "T_auto_20",
+      "requirement_id": "FR_auto_18",
+      "scenario": "User makes an informed decision about subscription",
+      "steps": [
+        "Launch the application",
+        "Evaluate features and pricing",
+        "Verify the subscription information"
+      ],
+      "expected_result": "The application provides relevant and accurate information to support an informed decision about subscription."
+    },
+    {
+      "test_id": "T_auto_21",
+      "requirement_id": "FR_auto_19",
+      "scenario": "User accesses continued support and effectiveness over time",
+      "steps": [
+        "Launch the application",
+        "Verify the application's long-term effectiveness"
+      ],
+      "expected_result": "The application provides sustained support and effectiveness over an extended period."
+    },
+    {
+      "test_id": "T_auto_22",
+      "requirement_id": "FR_auto_20",
+      "scenario": "User maintains progress and sets long-term goals",
+      "steps": [
+        "Launch the application",
+        "Track progress",
+        "Set long-term goals",
+        "Verify the progress and goals are displayed"
+      ],
+      "expected_result": "The application displays accurate and relevant information on long-term progress and goals."
     }
   ]
 }

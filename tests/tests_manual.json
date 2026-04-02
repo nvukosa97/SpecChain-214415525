@@ -4,13 +4,255 @@
     {
       "test_id": "T_auto_1",
       "requirement_id": "FR1",
-      "scenario": "Workout Logging Stability",
+      "scenario": "App Launch Timing when user is logged out",
       "steps": [
-        "Open the workout logging screen",
-        "Enter workout details",
-        "Submit the workout"
+        "Log out of application",
+        "Close application",
+        "Open application"
       ],
-      "expected_result": "The workout is saved successfully and the application remains stable."
+      "expected_result": "The application must open at login page and be interactive within 2 seconds."
+    },
+    {
+      "test_id": "T_auto_2",
+      "requirement_id": "FR1",
+      "scenario": "App Launch Timing when user is already logged in",
+      "steps": [
+        "Log into application",
+        "Open a meditation exercise",
+        "Close the application",
+        "Open the application"
+      ],
+      "expected_result": "The application must open at screen of meditation exercise where user left off and be interactive within 2 seconds."
+    },
+    {
+      "test_id": "T_auto_3",
+      "requirement_id": "FR2",
+      "scenario": "Remember chatbot avatar design",
+      "steps": [
+        "Log into application",
+        "Open a chatbot conversation",
+        "Customise chatbot avatar into penguin",
+        "Close the application", 
+        "Reopen the application"
+      ],
+      "expected_result": "The application chatbot avatar must still be a penguin when app is reopened."
+    },
+    {
+      "test_id": "T_auto_4",
+      "requirement_id": "FR2",
+      "scenario": "Remember font size and color scheme",
+      "steps": [
+        "Log into application",
+        "Change font size to 14 and color scheme to shades of blue",
+        "Close the application", 
+        "Reopen the application"
+      ],
+      "expected_result": "The font size and color scheme must still be 14 and shades of blue when app is reopened."
+    },
+    {
+      "test_id": "T_auto_5",
+      "requirement_id": "FR3",
+      "scenario": "Chatbot response to user who expresses sadness after previous messages had positive sentiment ",
+      "steps": [
+        "Log into application",
+        "Enter conversation with chatbot",
+        "Send a message with positive sentiment about how your day is going", 
+        "Respond to chatbot's response with another postive sentiment message",
+        "Send new message expressing negative sentiment about missing a pet"
+      ],
+      "expected_result": "The chatbot's response to latest message should empathize with the user and offer some form of condolences."
+    },
+    {
+      "test_id": "T_auto_6",
+      "requirement_id": "FR3",
+      "scenario": "Chatbot response to user who expresses both positive and negative sentiment in a single message ",
+      "steps": [
+        "Log into application",
+        "Enter conversation with chatbot",
+        "Send a message with positive sentiment about how you landed a job and negative sentiment about how you feel like you have no time for yourself"
+      ],
+      "expected_result": "The chatbot's response to latest message should empathize with the user's lack of free time."
+    },
+    {
+      "test_id": "T_auto_7",
+      "requirement_id": "FR4",
+      "scenario": "Ask chatbot multiple questions",
+      "steps": [
+        "Log into application",
+        "Enter conversation with chatbot",
+        "Send a message with more than one questiion"
+      ],
+      "expected_result": "The chatbot's must include answers to all questions."
+    },
+    {
+      "test_id": "T_auto_8",
+      "requirement_id": "FR4",
+      "scenario": "User asks chatbot question that compromises user safety",
+      "steps": [
+        "Log into application",
+        "Enter conversation with chatbot",
+        "Ask the chatbot a question involving harmful or unsafe activity"
+      ],
+      "expected_result": "The chatbot's must provide an explanation as to why they cannot answer that question, explaining how it cannot compromise user safety"
+    },
+    {
+      "test_id": "T_auto_9",
+      "requirement_id": "FR5",
+      "scenario": "User accesses previously saved conversations from history",
+      "steps": [
+        "Log into application",
+        "Navigate to conversation history section",
+        "Select a conversation from an earlier date",
+        "Open the selected conversation"
+        
+      ],
+      "expected_result": "The full conversation is displayed accurately, including all messages and timestamps, regardless of whe it was created"
+    },
+    {
+      "test_id": "T_auto_10",
+      "requirement_id": "FR5",
+      "scenario": "User accesses past conversations after logging in from a new session or device",
+      "steps": [
+        "Log into application on device A",
+        "Enter conversation with chatbot",
+        "Logout of the application",
+        "Log into application on Device B",
+        "Navigate to conversation history section",
+        "Locate and open the conversation created on Device A"
+
+      ],
+      "expected_result": "The conversation created on Device A is available and fuly accessible on Device B with complete content and timestamps"
+    },
+    {
+      "test_id": "T_auto_11",
+      "requirement_id": "FR6",
+      "scenario": "Searching for conversation with keyword when multiple conversations of different topics exist",
+      "steps": [
+        "Log into application",
+        "Enter conversation with chatbot",
+        "Ask the chatbot a question about how to manage time properly",
+        "Start a new conversation with the chatbot and ask it about meditation exercises",
+        "Logout of application",
+        "Log back in, go to search function and search with keyword 'meditation'"
+      ],
+      "expected_result": "The conversation about difficult conversations should appear in search results, the conversation about meditation should not appear"
+    },
+    {
+      "test_id": "T_auto_12",
+      "requirement_id": "FR6",
+      "scenario": "Searching for conversation with keyword when multiple conversations of similar topics exist",
+      "steps": [
+        "Log into application",
+        "Enter conversation with chatbot",
+        "Ask the chatbot a question about how to approach difficult conversations",
+        "Start a new conversation with the chatbot and ask it about meditation",
+        "Start a new conversation with chatbot about benefits of taking on difficult tasks",
+        "Logout of application",
+        "Log back in, go to search function and search with keyword 'difficult'"
+      ],
+      "expected_result": "The conversation about difficult conversations and conversation about benefits of difficult tasks should appear in search results, the conversation about meditation should not appear"
+    },
+    {
+      "test_id": "T_auto_13",
+      "requirement_id": "FR7",
+      "scenario": "Adjust content to simple mode",
+      "steps": [
+        "Log into application",
+        "Set content to simple mode",
+        "Go to meditation exercises"
+      ],
+      "expected_result": "Meditation exercise catalog should have at least 95% of instructions written with level B1 language as verified by CERF linguistic professional"
+    },
+    {
+      "test_id": "T_auto_14",
+      "requirement_id": "FR7",
+      "scenario": "Adjust content to complex mode have conversation with chatbout",
+      "steps": [
+        "Log into application",
+        "Set content to complex mode",
+        "Engage in conversation with chatbot, sending at least 10 messages"
+      ],
+      "expected_result": "At least 90% of chatbot responses should use at least C1 language as verified by CERF linguistic professional"
+    },
+    {
+      "test_id": "T_auto_15",
+      "requirement_id": "FR8",
+      "scenario": "Asking chatbot on how to calm down when being overstimulated as someone on the Autistic spectrum",
+      "steps": [
+        "Log into application",
+        "Enter conversation with chatbot",
+        "Introduce yourself as someone with Aspergers",
+        "Ask for how to stay calm when overstimulated"
+      ],
+      "expected_result": "Chatbot response should have accurate information on coping methods for people with Aspergers as verified by a health professional"
+    },
+    {
+      "test_id": "T_auto_16",
+      "requirement_id": "FR8",
+      "scenario": "Audit of meditation exercises by health professional",
+      "steps": [
+        "Log into application",
+        "Go to meditation exercises",
+        "Present catalog of exercises to health professional auditor"
+      ],
+      "expected_result": "The catalog must include at least 10% of exercises that are specific to neurodivergent people as verified by the health professional "
+    },
+    {
+      "test_id": "T_auto_17",
+      "requirement_id": "FR9",
+      "scenario": "Checking screen animations and transition animations",
+      "steps": [
+        "Log into application",
+        "Ensure instrumentation for measuring animations is set up",
+        "Follow script/instructions describing an interaction with the system meant to cover all screens and transitions"
+
+      ],
+      "expected_result": "Pixel intensity of all pixel must not change color or intensity at a rate greater than 30 units per second on a scale of 255 units as measured by instrumentation throughout script"
+    },
+    {
+      "test_id": "T_auto_18",
+      "requirement_id": "FR9",
+      "scenario": "Checking chatbot avatar animations",
+      "steps": [
+        "Log into application",
+        "Ensure instrumentation for measuring animations is set up",
+        "Enter conversation with chatbot",
+        "Follow script describing what messages to send to trigger all chatbot avatar animations",
+        "Repeat script for every chatbot avatar"
+
+
+      ],
+      "expected_result": "Pixel intensity of all pixel must not change color or intensity at a rate greater than 30 units per second on a scale of 255 units as measured by instrumentation throughout conversations with all avatars"
+    },
+    {
+      "test_id": "T_auto_19",
+      "requirement_id": "FR10",
+      "scenario": "Checking options per screen",
+      "steps": [
+        "Log into application",
+        "Follow script describing an interaction with the system meant to reach all screens"
+
+
+      ],
+      "expected_result": "Every screen should present no more than 3 options to user"
+    },
+    {
+      "test_id": "T_auto_20",
+      "requirement_id": "FR10",
+      "scenario": "Checking options provided by chatbot",
+      "steps": [
+        "Log into application",
+        "Enter conversation with chatbot",
+        "Follow script describing what messages to send to generate at least 50 responses to questions asking for options"
+
+
+      ],
+      "expected_result": "All responses generated by chatbot should present no more than 3 optionss"
     }
+
+
+
+
+
   ]
 }

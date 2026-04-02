@@ -1,22 +1,161 @@
 {  "personas": [
+  {
+    "id": "P1",
+    "name": "Daily driver user",
+    "description": "A busy user who relies on the app as part of their daily ritual and needs to use it within a short time window",
+    "derived_from_group": "G1",
+    "goals": [
+      "Easily access all features of the application",
+    "Go through the same similar sequence of steps each time they use the app"  ],
+    "pain_points": [
+      "Inconsistent access to features",
+      "Problems with accessing account and logging in",
+      "Long downtimes where app is in accessible",
+      "Not being sure how to navigate user interface"     ],
+    "context": [
+      "User only has 15 minutes during their lunch to go through wellness exercises",
+    "User uses the app to help with morning meditation before the kids wake up"     ],
+    "constraints": [
+      "Application must enable user to recover password within 2 minutes of requesting password recovery",
+      "The app launch time shall not exceed 2 seconds on standard devices that application is designed to run on ",
+      "The application shall preserve a consistent layout and navigation structure across sessions",
+      "The system shall remember user preferences and last used settings",
+      "Previously used activity shall be accessible via a one-tap shortcut"
+
+           ],
+    "evidence_reviews": [
+      "rev_13",
+      "rev_12",
+      "rev_46"      ]
+  },
     {
-      "id": "P1",
-      "name": "Frequent Activity Tracker",
-      "description": "A user who relies on the app to log workouts frequently and expects stable performance.",
-      "derived_from_group": "G1",
+      "id": "P2",
+      "name": "Human connection seeker user",
+      "description": "A user who uses the app to feel like they're having a conversation with a real person",
+      "derived_from_group": "G2",
       "goals": [
-        "Track workouts consistently",
-        "Log activity quickly"      ],
+        "Receive thoughtful realistic responses relevant responses to their concerns",
+        "Feel like their concerns are being heard and addressed",
+        "Feel companionship and support"  ],
       "pain_points": [
-        "App crashes during logging",
-        "Workout data sometimes disappears"      ],
+        "App chatbot repeats responses",
+        "App chatbot uses sanitized language",
+        "Chatbot does not address request/concern"     ],
       "context": [
-        "Logging activities immediately after workouts",
-        "Using the app during outdoor exercise"      ],
+        "Venting frustrations to get through a bad day",
+        "Feeling lonely and seeking companionship"      ],
       "constraints": [
-        "Logging must be reliable",
-        "Data should not be lost"       ],
+        "Chatbot must not provide the same response twice since application initiation, unless explicitly asked to",
+        "Chatbot must acknowledge and/or address at least one idea brought up by user",
+        "Chatbot shall identify and acknowledge the user's emotional state in each interaction",
+        "Responses shall use natural, conversational language rather than overly formal or robotic phrasing",
+      "Responses shall include at least one empathetic statement when negative sentiment is detected",
+    "The chatbot must provide an answer to all questions in any given user message, unless providing an answer compromises the user's safety"      ],
       "evidence_reviews": [
-        "rev_12",
-        "rev_45"      ]
-    }  ] }
+        "rev_79",
+      "rev_45996",
+      "rev_46126",
+      "rev_46112",
+      "rev_46137",
+      "rev_46050"      ]
+    },
+
+    {
+      "id": "P3",
+      "name": "Analytical user",
+      "description": "A user who wants to keep track of and analyze their mental health progress",
+      "derived_from_group": "G3",
+      "goals": [
+        "Have access to data and analytics regarding their mental health",
+        "Keep a journal/log of their mental health journey"
+          ],
+      "pain_points": [
+        "Not being able to look at past conversations and information",
+        "Having limited options for analyzing progress"     ],
+      "context": [
+        "Using the app to analyze user's mental health emprically",
+        "Looking back to see how mental health has progressed "     ],
+      "constraints": [
+        "App shall save all conversations since application account was initiated in an accessible form",
+        "All logged data shall be stored without loss and remain accessible across sessions",
+        "Data entries shall include timestamps and contextual metadata (e.g mood, activity type)",
+        "Application shall provide charts and graphs illustrating mental health progress",
+        "User shall be able to search past conversations and journal entries using keywords"
+
+        
+              ],
+      "evidence_reviews": [
+        "rev_46115",
+      "rev_7908",
+      "rev_214",
+      "rev_7778",
+      "rev_39512",
+      "rev_3075"     ]
+    },
+
+    {
+      "id": "P4",
+      "name": "Neurodivergent user",
+      "description": "A user who is neurodivergent seeking mental health help from the app",
+      "derived_from_group": "G4",
+      "goals": [
+        "Learn exercises and insights on their mental health in the context of neurodivergenve",
+        "Feel that their experience as a neurodivergent person is seen"
+          ],
+      "pain_points": [
+        "Content that does not reflect neurodivergent experience",
+        "Instructions that are vauge or ambiguous",
+      "Overwhelming or cluttered user interfaces"    ],
+      "context": [
+        "Using the app during moments of overstimulation",
+        "Looking for structured guidance to regulate emotions",
+      "Trying to understand their mental health in a neurodivergent context"    ],
+      "constraints": [
+        "Content shall include perspectives and language relevant to neurodivergent experiences",
+        "The system shall avoid framing neurodivergence as a deficit or problem to be fixed",
+        "Users shall be able to adjust content complexity (simple vs detailed explanation)",
+        "Instructions shall be clear , explicit, and broken into step-by-step guidance",
+        "Each screen shall focus on a single primary task"
+
+              ],
+      "evidence_reviews": [
+        "rev_1671",
+      "rev_10306",
+      "rev_19589",
+      "rev_40579"      ]
+    },
+
+    {
+      "id": "P5",
+      "name": "Stressed out user",
+      "description": "A stressed out user who uses the app to calm themselves down",
+      "derived_from_group": "G5",
+      "goals": [
+        "Go through meditation exercises that are easy to perform",
+        "Expose themselves to pleasant visual and auditory aesthetics"
+          ],
+      "pain_points": [
+        "Unpleasant sounding audio",
+        "User interface that is hard to navigate",
+        "User interface with harsh, jarring aesthetics"     ],
+      "context": [
+        "Looking for meditation exercies while having anxiety attack",
+        "Looking to interact with pleasant chatbot to vent"      ],
+      "constraints": [
+        "Meditation exercises shall be accessible within 3 clicks after login",
+        "Interface color palette shall avoid high-constrast, and overly saturated colors",
+        "Animations shall be smooth and slow-paced, with no flashing or rapid movement",
+        "Chatbot responses shall use calm, supportive and non-judgemental language",
+        "The system shall display no more than three options per screen"      ],
+      "evidence_reviews": [
+        "rev_23647",
+        "rev_27023",
+        "rev_1066",
+        "rev_2157",
+        "rev_38642",
+        "rev_554"     ]
+    }
+    
+    
+    
+    ] }

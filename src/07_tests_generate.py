@@ -92,7 +92,10 @@ Each requirement includes: a unique requirement ID, a description of system beha
 Here is the specification:
 {file_content}
 
-Create validation tests based on the  generated specifications. Each requirement must include at least 2 validation scenarios that describes how it could be verified
+Create validation tests based on the generated specifications. 
+Each requirement must include at least 1 validation scenario that describes how it could be verified
+Each requirement must include at least 1 validation scenario that describes how it could be verified
+Each requirement must include at least 1 validation scenario that describes how it could be verified
 
 Each test scenario must contain: a unique test ID, the requirement it validates, a short scenario description, a list of steps describing how the test would be executed, and the expected outcome
 

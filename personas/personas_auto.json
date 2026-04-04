@@ -2,304 +2,302 @@
   "personas": [
     {
       "id": "P1",
-      "name": "Hopeful Mental Health Seeker",
-      "description": "A user seeking mental health support and hopeful for positive change.",
+      "name": "Frustrated User",
+      "description": "A user experiencing technical issues with the app, seeking a stable and reliable experience.",
       "derived_from_group": "A1",
       "goals": [
-        "Find effective mental health support",
-        "Improve mental well-being"
+        "Use the app for mental health support",
+        "Experience a stable and responsive app"
       ],
       "pain_points": [
-        "Previous negative experiences with mental health support",
-        "Difficulty finding the right resources"
+        "App crashes or freezes",
+        "Slow response times",
+        "Technical issues hinder progress"
       ],
       "context": [
-        "Actively seeking mental health solutions",
-        "Open to trying different approaches"
+        "Using the app during stressful moments",
+        "Expecting a smooth and helpful experience"
       ],
       "constraints": [
-        "Needs to feel hopeful and motivated",
-        "Seeking reliable support"
-      ],
-      "evidence_reviews": [
-        "rev_3",
-        "rev_6",
-        "rev_10",
-        "rev_16"
-      ]
-    },
-    {
-      "id": "P2",
-      "name": "Frustrated Technical User",
-      "description": "A user experiencing technical difficulties with the app.",
-      "derived_from_group": "A2",
-      "goals": [
-        "Resolve technical issues",
-        "Use the app effectively"
-      ],
-      "pain_points": [
-        "App glitches and slow performance",
-        "Frustration with unresponsive support"
-      ],
-      "context": [
-        "Needs a stable and functional app",
-        "Seeking efficient support"
-      ],
-      "constraints": [
-        "Technical issues hinder progress",
-        "Seeking a reliable app experience"
+        "The app must be reliable and stable",
+        "Technical issues must be resolved quickly"
       ],
       "evidence_reviews": [
         "rev_8",
         "rev_19",
-        "rev_21",
-        "rev_39"
+        "rev_21"
+      ]
+    },
+    {
+      "id": "P2",
+      "name": "Disappointed User",
+      "description": "A user frustrated with the AI chatbot's limitations, seeking more insightful and helpful interactions.",
+      "derived_from_group": "A2",
+      "goals": [
+        "Receive helpful and insightful advice",
+        "Engage in meaningful conversations"
+      ],
+      "pain_points": [
+        "Repetitive or generic responses",
+        "Lack of empathy or understanding",
+        "Unhelpful advice"
+      ],
+      "context": [
+        "Using the app for emotional support",
+        "Expecting a more human-like experience"
+      ],
+      "constraints": [
+        "The AI must provide valuable insights",
+        "Conversations must be engaging and empathetic"
+      ],
+      "evidence_reviews": [
+        "rev_37",
+        "rev_58",
+        "rev_79"
       ]
     },
     {
       "id": "P3",
-      "name": "Disappointed User",
-      "description": "A user with a negative experience with the app.",
+      "name": "Skeptical Subscriber",
+      "description": "A user questioning the value of the subscription model, seeking more features or benefits.",
       "derived_from_group": "A3",
       "goals": [
-        "Find an effective mental health solution",
-        "Improve mental well-being"
+        "Understand the benefits of the subscription",
+        "Get value for money"
       ],
       "pain_points": [
-        "Negative experience with the app",
-        "Difficulty finding reliable support"
+        "Perceived lack of value",
+        "Unclear benefits",
+        "Expensive subscription"
       ],
       "context": [
-        "Seeking a better alternative",
-        "Open to trying different approaches"
+        "Evaluating the app's worth",
+        "Considering alternative options"
       ],
       "constraints": [
-        "Needs to feel supported",
-        "Seeking a reliable solution"
+        "The subscription must offer clear benefits",
+        "The app must provide tangible value"
       ],
       "evidence_reviews": [
-        "rev_1",
-        "rev_5",
-        "rev_13",
-        "rev_24"
+        "rev_67",
+        "rev_71",
+        "rev_195"
       ]
     },
     {
       "id": "P4",
-      "name": "Language-Constrained User",
-      "description": "A user seeking support in their native language.",
+      "name": "Mental Health Seeker",
+      "description": "A user seeking mental health benefits from the app, looking for a supportive experience.",
       "derived_from_group": "A4",
       "goals": [
-        "Access mental health support in their native language",
-        "Improve mental well-being"
+        "Improve mental health and well-being",
+        "Find a supportive community"
       ],
       "pain_points": [
-        "Limited language options",
-        "Difficulty finding support in their native language"
+        "Limited resources or support",
+        "Insufficient guidance"
       ],
       "context": [
-        "Seeking language-specific support",
-        "Open to trying different approaches"
+        "Using the app for mental health support",
+        "Seeking a sense of community"
       ],
       "constraints": [
-        "Needs language-specific support",
-        "Seeking a reliable solution"
+        "The app must provide effective support",
+        "Resources must be accessible and helpful"
       ],
       "evidence_reviews": [
-        "rev_20",
-        "rev_32",
-        "rev_44"
+        "rev_3",
+        "rev_4",
+        "rev_6"
       ]
     },
     {
       "id": "P5",
-      "name": "Appreciative User",
-      "description": "A user who appreciates the app's content and features.",
+      "name": "User Experience Seeker",
+      "description": "A user seeking an intuitive and user-friendly experience, with a focus on interface and usability.",
       "derived_from_group": "A5",
       "goals": [
-        "Continue to access helpful content",
-        "Improve mental well-being"
+        "Easy and intuitive navigation",
+        "A visually appealing interface"
       ],
       "pain_points": [
-        "Some limitations in the app's content",
-        "Seeking more features or support"
+        "Difficulty using the app",
+        "Unintuitive design"
       ],
       "context": [
-        "Actively using the app's features",
-        "Seeking to continue progress"
+        "Using the app regularly",
+        "Expecting a seamless experience"
       ],
       "constraints": [
-        "Values the app's content and features",
-        "Seeking continued support"
+        "The app must be easy to use",
+        "The interface must be visually appealing"
       ],
       "evidence_reviews": [
-        "rev_4",
+        "rev_2",
         "rev_11",
-        "rev_26",
-        "rev_30"
+        "rev_82"
       ]
     },
     {
       "id": "P6",
-      "name": "Suggestive User",
-      "description": "A user with suggestions for improving the app.",
+      "name": "Comparative User",
+      "description": "A user comparing the app to human therapists, seeking a similar experience.",
       "derived_from_group": "A6",
       "goals": [
-        "Improve the app's features and support",
-        "Enhance their experience"
+        "Experience a similar interaction to human therapy",
+        "Receive comparable support"
       ],
       "pain_points": [
-        "Some limitations in the app's features",
-        "Seeking more effective support"
+        "Lack of human empathy",
+        "Insufficient support"
       ],
       "context": [
-        "Actively using the app and seeking improvement",
-        "Open to providing feedback"
+        "Using the app as a therapy alternative",
+        "Expecting a similar experience"
       ],
       "constraints": [
-        "Seeking a more effective and supportive app",
-        "Values the app's potential"
+        "The app must provide comparable support",
+        "Interactions must feel human-like"
       ],
       "evidence_reviews": [
         "rev_31",
-        "rev_38",
-        "rev_42"
+        "rev_102",
+        "rev_136"
       ]
     },
     {
       "id": "P7",
-      "name": "Mental Health Seeker",
-      "description": "A user seeking effective mental health support.",
+      "name": "Language Limited User",
+      "description": "A user seeking support in their native language, facing limitations in the app's language offerings.",
       "derived_from_group": "A7",
       "goals": [
-        "Find effective mental health support",
-        "Improve mental well-being"
+        "Access support in their native language",
+        "Use the app without language barriers"
       ],
       "pain_points": [
-        "Difficulty finding reliable support",
-        "Seeking a more effective solution"
+        "Limited language options",
+        "Difficulty understanding content"
       ],
       "context": [
-        "Actively seeking mental health solutions",
-        "Open to trying different approaches"
+        "Using the app in a non-English speaking region",
+        "Seeking support in their native language"
       ],
       "constraints": [
-        "Needs to feel supported",
-        "Seeking a reliable solution"
+        "The app must support their native language",
+        "Language options must be comprehensive"
       ],
       "evidence_reviews": [
-        "rev_2",
-        "rev_9",
-        "rev_25",
-        "rev_29"
+        "rev_20",
+        "rev_152",
+        "rev_537"
       ]
     },
     {
       "id": "P8",
-      "name": "Comparative User",
-      "description": "A user comparing the app to other therapies.",
+      "name": "Free Version User",
+      "description": "A user limited by the free version's features, seeking more functionality.",
       "derived_from_group": "A8",
       "goals": [
-        "Evaluate the app's effectiveness",
-        "Compare to other therapies"
+        "Access more features and support",
+        "Upgrade to a paid version"
       ],
       "pain_points": [
-        "Difficulty evaluating the app's effectiveness",
-        "Seeking a more comprehensive solution"
+        "Limited features in the free version",
+        "Insufficient support"
       ],
       "context": [
-        "Researching and evaluating mental health options",
-        "Seeking a reliable solution"
+        "Using the free version",
+        "Considering an upgrade"
       ],
       "constraints": [
-        "Needs to evaluate the app's effectiveness",
-        "Seeking a comprehensive solution"
+        "The free version must provide sufficient value",
+        "The paid version must offer clear benefits"
       ],
       "evidence_reviews": [
-        "rev_46",
-        "rev_51",
-        "rev_56"
+        "rev_75",
+        "rev_377",
+        "rev_494"
       ]
     },
     {
       "id": "P9",
-      "name": "Monetization-Conscious User",
-      "description": "A user concerned about the app's monetization.",
+      "name": "Success Story Seeker",
+      "description": "A user seeking success stories and positive experiences from others.",
       "derived_from_group": "A9",
       "goals": [
-        "Evaluate the app's value for money",
-        "Make an informed decision about subscription"
+        "Find inspiration from success stories",
+        "Connect with others' positive experiences"
       ],
       "pain_points": [
-        "Concerns about the app's pricing",
-        "Seeking a fair and transparent monetization model"
+        "Limited access to success stories",
+        "Insufficient positive content"
       ],
       "context": [
-        "Evaluating the app's features and pricing",
-        "Seeking a reliable and affordable solution"
+        "Using the app for motivation",
+        "Seeking a sense of community"
       ],
       "constraints": [
-        "Needs to feel that the app is a good value",
-        "Seeking a fair and transparent monetization model"
+        "The app must provide inspiring success stories",
+        "Positive experiences must be showcased"
       ],
       "evidence_reviews": [
-        "rev_47",
-        "rev_52",
-        "rev_57"
+        "rev_41",
+        "rev_45",
+        "rev_186"
       ]
     },
     {
       "id": "P10",
-      "name": "Long-Term User",
-      "description": "A user seeking long-term support and effectiveness.",
+      "name": "Crisis Support Seeker",
+      "description": "A user seeking crisis support and immediate help.",
       "derived_from_group": "A10",
       "goals": [
-        "Continue to access effective support",
-        "Maintain progress over time"
+        "Access immediate support",
+        "Find help during a crisis"
       ],
       "pain_points": [
-        "Some limitations in the app's long-term effectiveness",
-        "Seeking continued support and progress"
+        "Insufficient crisis support",
+        "Delayed response times"
       ],
       "context": [
-        "Actively using the app over an extended period",
-        "Seeking to maintain progress"
+        "Using the app during a crisis",
+        "Seeking immediate help"
       ],
       "constraints": [
-        "Values the app's long-term effectiveness",
-        "Seeking continued support and progress"
+        "The app must provide immediate support",
+        "Crisis resources must be accessible"
       ],
       "evidence_reviews": [
-        "rev_48",
-        "rev_53",
-        "rev_58"
+        "rev_90",
+        "rev_91",
+        "rev_190"
       ]
     },
     {
       "id": "P11",
-      "name": "Feature-Specific User",
-      "description": "A user seeking specific features or functionality.",
+      "name": "Error Prone User",
+      "description": "A user experiencing app crashes and errors, seeking a stable experience.",
       "derived_from_group": "A11",
       "goals": [
-        "Access specific features or functionality",
-        "Enhance their experience"
+        "Use the app without errors",
+        "Experience a stable and reliable app"
       ],
       "pain_points": [
-        "Some limitations in the app's features",
-        "Seeking more effective support"
+        "App crashes or freezes",
+        "Error messages or unexpected behavior"
       ],
       "context": [
-        "Actively using the app and seeking specific features",
-        "Open to providing feedback"
+        "Using the app regularly",
+        "Expecting a seamless experience"
       ],
       "constraints": [
-        "Seeking a more effective and supportive app",
-        "Values the app's potential"
+        "The app must be stable and reliable",
+        "Errors must be resolved quickly"
       ],
       "evidence_reviews": [
-        "rev_49",
-        "rev_54",
-        "rev_59"
+        "rev_35",
+        "rev_51",
+        "rev_108"
       ]
     }
   ]

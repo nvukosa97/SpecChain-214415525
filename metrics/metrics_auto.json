@@ -2,10 +2,10 @@
   "pipeline": "automated",
   "dataset_size": 46222,
   "persona_count": 11,
-  "requirements_count": 20,
+  "requirements_count": 22,
   "tests_count": 22,
-  "traceability_links": 80,
-  "review_coverage": 0.00082,
+  "traceability_links": 77,
+  "review_coverage": 0.00072,
   "traceability_ratio": 1.0,
   "testability_rate": 1.0, 
   "ambiguity_ratio": 0.8

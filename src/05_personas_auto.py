@@ -98,6 +98,9 @@ Use the provided reviews to identify groups of similar feedback.
 Create 15 groups of reviews that represent distinct types of users or user situations. 
 Each group must contain at least several related reviews and clearly represent a common theme.
 
+The themes should be specific as they will be used to create personas to generate requirements for the application later on.
+Avoid generic themes like "Positive Experience". 
+
 Return a JSON in the following format:
 {{
   "groups": [
@@ -142,6 +145,7 @@ Here are the groups:
 
 Use the review groups from to create personas that provides the group's constraints, common goals, pain points, and context. 
 Each persona must reference the review group it was derived.
+The personas should be detailed and specific as they will be used to generate requirements for the application.
 
 
 Return a JSON in the following format:
@@ -153,19 +157,28 @@ Return a JSON in the following format:
       "derived_from_group": "G1",
       "goals": [
         "Track workouts consistently",
-        "Log activity quickly"      ],
+        "Log activity quickly",
+        "Track workouts consistently",
+        "Log activity quickly",
+              ],
       "pain_points": [
+        "App crashes during logging",
+        "Workout data sometimes disappears",
         "App crashes during logging",
         "Workout data sometimes disappears"      ],
       "context": [
         "Logging activities immediately after workouts",
-        "Using the app during outdoor exercise"      ],
+        "Using the app during outdoor exercise",
+              ],
       "constraints": [
         "Logging must be reliable",
-        "Data should not be lost"       ],
+        "Data should not be lost",
+        "Data should not be lost"        ],
       "evidence_reviews": [
         "rev_12",
-        "rev_45"      ]
+        "rev_45",
+        "rev_12",
+        "rev_45"        ]
     }}  ] }}
 """
 

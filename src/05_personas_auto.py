@@ -127,7 +127,7 @@ if response is not None:
         json.dump(data, f, indent=2, ensure_ascii=False)
     print(f"Saved response to {file}")
 else:
-    print("No response to save.")
+        raise Exception("No response to save.")
 
 
 
@@ -194,4 +194,4 @@ if response2 is not None:
         json.dump(data, f, indent=2, ensure_ascii=False)
     print(f"Saved response to {file}")
 else:
-    print("No response to save.")
+    raise Exception("No response to save.")

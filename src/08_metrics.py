@@ -146,13 +146,13 @@ def main() -> None:
             dataset_size=dataset_size,
         )
 
-        output_path = METRICS_DIR / f"metrics_{pipeline_name}2.json"
+        output_path = METRICS_DIR / f"metrics_{pipeline_name}.json"
         with output_path.open("w", encoding="utf-8") as f:
             json.dump(metrics, f, indent=2)
 
         summary[pipeline_name] = metrics
 
-    summary_path = METRICS_DIR / "metrics_summary2.json"
+    summary_path = METRICS_DIR / "metrics_summary.json"
     with summary_path.open("w", encoding="utf-8") as f:
         json.dump(summary, f, indent=2)
 

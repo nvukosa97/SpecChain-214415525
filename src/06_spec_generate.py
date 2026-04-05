@@ -93,13 +93,29 @@ Each requirement must include: a unique requirement ID, a description of system 
 
 Generate 2 to 4 requirements for each persona
 
-Return a markdown file in the following format:
-# Requirement ID: FR_auto_1
-- Description: [The system shall allow users to log workouts without application crashes.]
+Return a markdown file in the following format, please follow the exact format as it will be parsed by a script:
+## Requirements for Frustrated User (P1)
+### Requirement ID: FR_auto_1
+- Description: The system shall handle user interactions without crashing or freezing.
 
-- Source Persona: [Active Fitness Tracker]
-- Traceability: [Derived from review group A1]
-- Acceptance Criteria:[Given the user logs a workout, When the logging process completes, Then the application must remain stable, and the workout must be saved successfully.]
+- Source Persona: Frustrated User (P1)
+- Traceability: Derived from review group A1
+- Acceptance Criteria: Given the user interacts with the app, When the interaction completes, Then the application must remain stable, and the user's progress must be saved successfully.
+
+### Requirement ID: FR_auto_2
+- Description: The system shall provide quick response times to user inputs.
+
+- Source Persona: Frustrated User (P1)
+- Traceability: Derived from review group A1
+- Acceptance Criteria: Given the user provides input, When the system processes the input, Then the system must respond within a reasonable time frame (e.g., < 2 seconds).
+
+## Requirements for Disappointed User (P2)
+### Requirement ID: FR_auto_3
+- Description: The system shall provide insightful and helpful advice to users.
+
+- Source Persona: Disappointed User (P2)
+- Traceability: Derived from review group A2
+- Acceptance Criteria: Given the user requests advice, When the system provides a response, Then the response must be relevant, helpful, and empathetic.
 """
 
 response = get_completion(prompt)

@@ -40,11 +40,12 @@ def get_app_data(app_id):
 
 def get_app_reviews(app_id):
     """Fetch reviews for an app"""
+    print("Fectching reviews, this may take some time")
     result = reviews_all(
         app_id,
         sleep_milliseconds=0
     )
-    print(f"number of reviews{len(result)}")
+    print(f"number of reviews {len(result)}")
     return result # Return only the requested number of reviews
 
 # List of app IDs to scrape

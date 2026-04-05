@@ -3,14 +3,243 @@
     {
       "test_id": "T_hybrid_1",
       "requirement_id": "FR_hybrid_1",
-      "scenario": "Save a workout entry without crashing",
+      "scenario": "Interacting with the app without crashing",
       "steps": [
-        "Open the workout logging feature",
-        "Enter workout information",
-        "Submit the workout"
+        "Launch the app",
+        "Navigate to a feature",
+        "Interact with the feature"
       ],
-      "expected_result": "The workout is saved successfully and the application does not crash.",
-      "notes": "Revised the expected result to match the updated hybrid requirement."
+      "expected_result": "The application remains stable and the user's progress is saved successfully.",
+      "notes": "No notes"
+    },
+    {
+      "test_id": "T_hybrid_2",
+      "requirement_id": "FR_hybrid_2",
+      "scenario": "Quick response time to user input",
+      "steps": [
+        "Launch the app",
+        "Login",
+        "Press button to go to meditation exercises",
+        "Measure response time"
+      ],
+      "expected_result": "The system responds with exercises within 2 seconds.",
+      "notes": "Steps too vauge, updated them to specific workflow"
+    },
+    {
+      "test_id": "T_hybrid_3",
+      "requirement_id": "FR_hybrid_3",
+      "scenario": "Providing relevant advice to users main concerns",
+      "steps": [
+        "Launch the app",
+        "Go to chatbot",
+        "Request advice on how to calm down during family troubles",
+        "Evaluate response"
+      ],
+      "expected_result": "The response includes advice on how to calm down during family troubles .",
+      "notes": "Updated steps so they are less vague. Expected result was not measurable so updated that"
+    },
+    {
+      "test_id": "T_hybrid_4",
+      "requirement_id": "FR_hybrid_4",
+      "scenario": "Engaging in conversations that address their emotional state",
+      "steps": [
+        "Launch the app",
+        "Go to chatbot",
+        "Initiate a conversation about how your concerned about children's wellbeing",
+        "Evaluate conversation flow"
+      ],
+      "expected_result": "The chatbot response acknowledges the users stress emotional state.",
+      "notes": "Result was not measurable, updated accordingly"
+    },
+    {
+      "test_id": "T_hybrid_5",
+      "requirement_id": "FR_hybrid_5",
+      "scenario": "Clear communication of subscription benefits",
+      "steps": [
+        "Launch the app",
+        "Review subscription options",
+        "Evaluate benefits"
+      ],
+      "expected_result": "The benefits are clear, concise (less than 20 words each), and provide comparisons to free feature set.",
+      "notes":  "Made result more testable"
+    },
+    {
+      "test_id": "T_hybrid_6",
+      "requirement_id": "FR_hybrid_6",
+      "scenario": "Providing functional features and responsive support that enable users to complete meaningful tasks",
+      "steps": [
+        "Launch the app",
+        "Follow steps to complete following workflows: Access mental health resources, look at log of conversations, access meditation exercises"
+      ],
+      "expected_result": "The system shall enable user to complete at all end-to-end workflows.",
+      "notes": "Updated test to focus on end-to-end completion of workflows"
+    },
+    {
+      "test_id": "T_hybrid_7",
+      "requirement_id": "FR_hybrid_7",
+      "scenario": "Effective support for mental health and well-being",
+      "steps": [
+        "Launch the app",
+        "Seek support",
+        "Evaluate resources"
+      ],
+      "expected_result": "Rhe resources must have proven effectiveness as supported by latest peer-reviewed mental health literature, as evaluated by mental health practicioner",
+      "notes": "Made expected result more testable by referencing literature and evaluator"
+    },
+    {
+      "test_id": "T_hybrid_8",
+      "requirement_id": "FR_hybrid_8",
+      "scenario": "Providing a supportive community and only allowing positive messaging",
+      "steps": [
+        "Launch the app",
+        "Engage with the community on message board",
+        "Evaluate community messages"
+      ],
+      "expected_result": "99% of messages should be void of messages that are inappropriate, vulgar, or hurtful according to code of conduct.",
+      "notes": "Result was not testable so updated it to look at message content"
+    },
+    {
+      "test_id": "T_hybrid_9",
+      "requirement_id": "FR_hybrid_9",
+      "scenario": "Intuitive and user-friendly interface",
+      "steps": [
+        "Launch the app",
+        "Navigate the interface following steps to go to meditation exercises"
+        
+      ],
+      "expected_result": "The interface shall allow user to reach meditation exercises in under 5 seconds.",
+      "notes": "Revised test and result to evaluate time to get to certain page"
+    },
+    {
+      "test_id": "T_hybrid_10",
+      "requirement_id": "FR_hybrid_10",
+      "scenario": "Visually appealing interface",
+      "steps": [
+        "Launch the app",
+        "Follow steps to go to all screens of app",
+        "Evaluate textual elements"
+      ],
+      "expected_result": "Text of all pages must meet WCAG 2.1 AA contrast ratios",
+      "notes": "Related test to updated requirement"
+    },
+    {
+      "test_id": "T_hybrid_11",
+      "requirement_id": "FR_hybrid_11",
+      "scenario": "Comparable support to human therapy",
+      "steps": [
+        "Launch the app",
+        "Seek support",
+        "Evaluate response quality"
+      ],
+      "expected_result": "The responses are comparable in quality and empathy to human therapy."
+    },
+    {
+      "test_id": "T_hybrid_12",
+      "requirement_id": "FR_hybrid_12",
+      "scenario": "Human-like interactions in multi-turn conversation",
+      "steps": [
+        "Launch the app",
+        "Initiate convesation with chatbot",
+        "Talk about how you have been stressed",
+        "Ask if you should go for a run"
+      ],
+      "expected_result": "The response should advise user on whether or not they should go on a run, and reference that the user has been stressed to provide context for their rationale",
+      "notes": "Updated test to match updated requirement. Test goes through multi-turn conversation and checks if chatbot keeps context"
+    },
+    {
+      "test_id": "T_hybrid_13",
+      "requirement_id": "FR_hybrid_13",
+      "scenario": "Support for multiple languages",
+      "steps": [
+        "Launch the app",
+        "Select each available language setting",
+        "Bring in language advisor to evaluate content"
+      ],
+      "expected_result": "System content shall receive grade of at least B from Language advisor for each available language based on questionnaire",
+      "notes": "Modified steps so its clear that we test each language"
+    },
+    {
+      "test_id": "T_hybrid_14",
+      "requirement_id": "FR_hybrid_14",
+      "scenario": "Comprehensive language options",
+      "steps": [
+        "Launch the app",
+        "Select each available language setting",
+        "Search through content of application with script for each language"
+      ],
+      "expected_result": "At least 95% of textual content throughout application should be in each support language ",
+      "note": "Made result verifiable against a threshold"
+    },
+    {
+      "test_id": "T_hybrid_15",
+      "requirement_id": "FR_hybrid_15",
+      "scenario": "enable users on the free version to complete core application tasks without requiring immediate upgrade",
+      "steps": [
+        "Launch the app",
+        "Start conversation with chatbot in free mode",
+        "Keep conversation going for 10 messages",
+        "Try to add photo to message"
+      ],
+      "expected_result": "The system will prevent user from sending photo, but conversation should still be available",
+      "note": "Updated test to match updated requirement"
+    },
+    {
+      "test_id": "T_hybrid_17",
+      "requirement_id": "FR_hybrid_17",
+      "scenario": "Access to inspiring success stories",
+      "steps": [
+        "Launch the app",
+        "Navigate to success stories screen",
+        "Evaluate stories"
+      ],
+      "expected_result": "Each story must be about a positive experience using the application",
+      "notes": "Updated result for more tangible expected result"
+    },
+    {
+      "test_id": "T_hybrid_19",
+      "requirement_id": "FR_hybrid_19",
+      "scenario": "Immediate support during a crisis",
+      "steps": [
+        "Launch the app",
+        "Go to chatbot",
+        "Ask for immediate support"
+      ],
+      "expected_result": "Support resources must be available within 2 seconds.",
+      "notes": "changed test to be verifiable"
+    },
+    {
+      "test_id": "T_hybrid_20",
+      "requirement_id": "FR_hybrid_20",
+      "scenario": "provide actionable crisis resources",
+      "steps": [
+        "Launch the app",
+        "Go to crisis resource catalog"
+      ],
+      "expected_result": "Each resource should include actionable information (e.g., phone number, link, or instructions for immediate contact)"
+    },
+    {
+      "test_id": "T_hybrid_21",
+      "requirement_id": "FR_hybrid_21",
+      "scenario": "handle user interactions with controlled error handling, ensuring system stability",
+      "steps": [
+        "Launch the app",
+        "Enter conversation with chatbot",
+        "Use evaluation tool to flood message with enough characters to cause error"
+      ],
+      "expected_result": "The application should present an error message, and return user to chatbot interface.",
+      "notes": "Updated test to reflect error handling requirement. Updated result to evaluate error handling process"
+    },
+    {
+      "test_id": "T_hybrid_22",
+      "requirement_id": "FR_hybrid_22",
+      "scenario": "Resolving errors in less than 20 seconds",
+      "steps": [
+        "Launch the app",
+        "Run program that goes through applicaiton workflows over 48 hours",
+        "Evaluate error resolution using instrumentation"
+      ],
+      "expected_result": "Errors should have been resolved in less than 20 seconds after the failure at least 95% of the time",
+      "notes": "Updated test to reflect updated requirement"
     }
   ]
 }

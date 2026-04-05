@@ -1,31 +1,320 @@
 {
   "personas": [
     {
-      "id": "P_hybrid_1",
-      "name": "Frequent Fitness Logger",
-      "description": "A user who depends on the app for regular workout tracking and expects logging to work reliably during or immediately after exercise.",
-      "derived_from_group": "H1",
+      "id": "P1",
+      "name": "Frustrated User",
+      "description": "A user experiencing technical issues with the app, seeking a stable and reliable experience.",
+      "derived_from_group": "A1",
       "goals": [
-        "Log workouts quickly",
-        "Track activities without interruption"
+        "Use the app for mental health support",
+        "Experience a stable and responsive app"
       ],
       "pain_points": [
-        "The app crashes while saving workouts",
-        "Previously entered activity data may disappear"
+        "App crashes or freezes",
+        "Slow response times",
+        "Technical issues hinder progress"
       ],
       "context": [
-        "Using the app during exercise sessions",
-        "Using the app outdoors or while moving"
+        "Using the app during stressful moments",
+        "User only has 15 minutes during their lunch to go through wellness exercises",
+        "Expecting a smooth and helpful experience"
       ],
       "constraints": [
-        "Workout logging must complete without crashing",
-        "Saved workout data must persist"
+        "The app must be reliable and stable",
+        "Technical issues must be resolved within 24 hours"
       ],
       "evidence_reviews": [
-        "rev_12",
-        "rev_41"
+        "rev_8",
+        "rev_19",
+        "rev_21"
       ],
-      "notes": "Refined the persona description and removed an unsupported assumption about synchronization."
+      "notes": "Added context point to highlight that user may be under time constraint so does not have time to wait on slow eresonse time. Constraint \"Technical issues must be resolved quickly\" changed to must be resolved within 24 hours to avoid ambiguity."
+    },
+    {
+      "id": "P2",
+      "name": "Disappointed with Chatbot User",
+      "description": "A user frustrated with the AI chatbot's limitations, seeking more insightful and helpful interactions.",
+      "derived_from_group": "A2",
+      "goals": [
+        "Receive helpful and insightful advice",
+        "Engage in meaningful conversations"
+      ],
+      "pain_points": [
+        "Repetitive or generic responses",
+        "Lack of empathy or understanding",
+        "Unhelpful advice"
+      ],
+      "context": [
+        "Using the app for emotional support",
+        "Expecting a more human-like experience"
+      ],
+      "constraints": [
+        "The AI must provide valuable insights",
+        "Conversations must be engaging and empathetic",
+        "Chatbot must not provide the same response twice since application initiation, unless explicitly asked to"
+      ],
+      "evidence_reviews": [
+        "rev_37",
+        "rev_58",
+        "rev_79"
+      ],
+      "notes": "Add constraint \"Chatbot must not provide the same response twice since application initiation, unless explicitly asked to\" as it explicitly addresses rev_79. \n Updated name of user from \"Dissapointed user\" to Dissapointed with Chatbot user to make it clear this persona is concerned with chatbot "
+    },
+    {
+      "id": "P3",
+      "name": "Skeptical Subscriber",
+      "description": "A user questioning the value of the subscription model, seeking more features or benefits.",
+      "derived_from_group": "A3",
+      "goals": [
+        "Understand the benefits of the subscription",
+        "Get value for money"
+      ],
+      "pain_points": [
+        "Perceived lack of value",
+        "Unclear benefits",
+        "Expensive subscription"
+      ],
+      "context": [
+        "Evaluating the app's worth",
+        "Considering alternative options"
+      ],
+      "constraints": [
+        "The subscription must offer clear benefits",
+        "The app must provide tangible value"
+      ],
+      "evidence_reviews": [
+        "rev_67",
+        "rev_71",
+        "rev_195"
+      ],
+      "notes": "No notes"
+    },
+    {
+      "id": "P4",
+      "name": "Mental Health Seeker",
+      "description": "A user seeking mental health benefits from the app, looking for a supportive experience.",
+      "derived_from_group": "A4",
+      "goals": [
+        "Improve mental health and well-being",
+        "Find a supportive community"
+      ],
+      "pain_points": [
+        "Limited resources or support",
+        "Insufficient guidance"
+      ],
+      "context": [
+        "Using the app for mental health support",
+        "Seeking a sense of community"
+      ],
+      "constraints": [
+        "The app must provide support sourced from successful cognitive behavioral therapy literature",
+        "Resources must be accessible within 3 clicks and presented with vocabulary that can be understood by people with no experience in psychology"
+      ],
+      "evidence_reviews": [
+        "rev_3",
+        "rev_4",
+        "rev_6"
+      ],
+      "notes": "Updated constraints \"The app must provide effective support\" to  \"The app must provide support sourced from successful cognitive behavioral therapy literature\" and \"Resources must be accessible and helpful\"  to \n \"Resources must be accessible within 3 clicks and presented with vocabulary that can be understood by people with no experience in psychology\". Updated the constraints because previous ones were vauge and not testable, now there is concrete \n criteria for effective support and accessibilty."
+    },
+    {
+      "id": "P5",
+      "name": "User Experience Seeker",
+      "description": "A user seeking an intuitive and user-friendly experience, with a focus on interface and usability.",
+      "derived_from_group": "A5",
+      "goals": [
+        "Easy and intuitive navigation",
+        "A visually appealing interface"
+      ],
+      "pain_points": [
+        "Difficulty using the app",
+        "Unintuitive design"
+      ],
+      "context": [
+        "Using the app regularly",
+        "Expecting a seamless experience"
+      ],
+      "constraints": [
+        "Meditation exercises shall be accessible within 3 clicks after login",
+        "The application shall preserve a consistent layout and navigation structure across sessions",
+        "Interface color palette shall avoid high-constrast, and overly saturated colors"
+      ],
+      "evidence_reviews": [
+        "rev_2",
+        "rev_11",
+        "rev_82"
+      ],
+      "notes": "Replaced constraint {The interface must be visually appealing} with {Interface color palette shall avoid high-constrast, and overly saturated colors} since visually appealing is too vague. Added {The application shall preserve a consistent layout and navigation structure across sessions} constraint for more testable usability constraint. \n Replace {The app must be easy to use} constraint with {Meditation exercises shall be accessible within 3 clicks after login} since auto-generated one too vague"
+    },
+    {
+      "id": "P6",
+      "name": "Comparative User",
+      "description": "A user comparing the app to human therapists, seeking a similar experience.",
+      "derived_from_group": "A6",
+      "goals": [
+        "Experience a similar interaction to human therapy",
+        "Receive comparable support"
+      ],
+      "pain_points": [
+        "Lack of human empathy",
+        "Insufficient support"
+      ],
+      "context": [
+        "Using the app as a therapy alternative",
+        "Expecting a similar experience"
+      ],
+      "constraints": [
+        "The app must provide comparable support",
+        "Chatbot shall identify and acknowledge the user's emotional state in each interaction",
+        "Responses shall use natural, conversational language rather than overly formal or robotic phrasing"
+      ],
+      "evidence_reviews": [
+        "rev_31",
+        "rev_102",
+        "rev_136"
+      ],
+      "notes": "Auto generated constraint {Interactions must feel human-like} replaced with several more concrete constraints {Chatbot shall identify and acknowledge the user's emotional state in each interaction}, and {Responses shall use natural, conversational language rather than overly formal or robotic phrasing}"
+    },
+    {
+      "id": "P7",
+      "name": "Language Limited User",
+      "description": "A user seeking support in their native language, facing limitations in the app's language offerings.",
+      "derived_from_group": "A7",
+      "goals": [
+        "Access support in their native language",
+        "Use the app without language barriers"
+      ],
+      "pain_points": [
+        "Limited language options",
+        "Difficulty understanding content"
+      ],
+      "context": [
+        "Using the app in a non-English speaking region",
+        "Seeking support in their native language"
+      ],
+      "constraints": [
+        "The app must support their native language",
+        "Language options must cover at least 95% of application features"
+      ],
+      "evidence_reviews": [
+        "rev_20",
+        "rev_152",
+        "rev_537"
+      ],
+      "notes": "Updated auto generated constraint {Language options must be comprehensive} to {Language options must cover at least 95% of application features} to make the constraint less ambiguous"
+    },
+    {
+      "id": "P8",
+      "name": "Free Version User",
+      "description": "A user limited by the free version's features, seeking more functionality.",
+      "derived_from_group": "A8",
+      "goals": [
+        "Access more features and support",
+        "Upgrade to a paid version"
+      ],
+      "pain_points": [
+        "Limited features in the free version",
+        "Insufficient support"
+      ],
+      "context": [
+        "Using the free version",
+        "Considering an upgrade"
+      ],
+      "constraints": [
+        "Application shall maintain consistent performance and response time for free-tier users within defined limits",
+        "Application shall provide at least one non-destructive fallback option when a restricted feature is accessed (e.g., preview, downgrade mode)",
+        "Application shall provide a persistent and accessible comparison between free and paid features"
+      ],
+      "evidence_reviews": [
+        "rev_75",
+        "rev_377",
+        "rev_494"
+      ],
+      "notes": "Replaced auto generated constraint {The free version must provide sufficient value} with {Application shall maintain consistent performance and response time for free-tier users within defined limits and Application shall provide at least one non-destructive fallback option when a restricted feature is accessed (e.g., preview, downgrade mode)} to address ambiguity. Replaced constraint {The paid version must offer clear benefits} with  {Application shall provide a persistent and accessible comparison between free and paid features} "
+    },
+    {
+      "id": "P9",
+      "name": "Success Story Seeker",
+      "description": "A user seeking success stories and positive experiences from others.",
+      "derived_from_group": "A9",
+      "goals": [
+        "Find inspiration from success stories",
+        "Connect with others' positive experiences"
+      ],
+      "pain_points": [
+        "Limited access to success stories",
+        "Insufficient positive content"
+      ],
+      "context": [
+        "Using the app for motivation",
+        "Seeking a sense of community"
+      ],
+      "constraints": [
+        "The app must provide inspiring success stories",
+        "Positive experiences must be showcased"
+      ],
+      "evidence_reviews": [
+        "rev_41",
+        "rev_45",
+        "rev_186"
+      ],
+      "notes": "No notes"
+    },
+    {
+      "id": "P10",
+      "name": "Crisis Support Seeker",
+      "description": "A user seeking crisis support and immediate help.",
+      "derived_from_group": "A10",
+      "goals": [
+        "Access immediate support",
+        "Find help during a crisis"
+      ],
+      "pain_points": [
+        "Insufficient crisis support",
+        "Delayed response times"
+      ],
+      "context": [
+        "Using the app during a crisis",
+        "Seeking immediate help"
+      ],
+      "constraints": [
+        "The app must provide immediate support",
+        "Crisis resources must be accessible within 2 clicks after login"
+      ],
+      "evidence_reviews": [
+        "rev_90",
+        "rev_91",
+        "rev_190"
+      ],
+      "notes": "Expanded constraint {Crisis resources must be accessible} to {Crisis resources must be accessible within 2 clicks after login} to make whats meant by accesible more clear "
+    },
+    {
+      "id": "P11",
+      "name": "Error Prone User",
+      "description": "A user experiencing app crashes and errors, seeking a stable experience.",
+      "derived_from_group": "A11",
+      "goals": [
+        "Use the app without errors",
+        "Experience a stable and reliable app"
+      ],
+      "pain_points": [
+        "App crashes or freezes",
+        "Error messages or unexpected behavior"
+      ],
+      "context": [
+        "Using the app regularly",
+        "Expecting a seamless experience"
+      ],
+      "constraints": [
+        "The system shall not be unavailable more than 1 hour per 1000 hours of operation",
+        "The system shall be restartable in less than 20 seconds after a failure at least 95% of the time."
+      ],
+      "evidence_reviews": [
+        "rev_35",
+        "rev_51",
+        "rev_108"
+      ],
+      "notes": "Updated constraint {The app must be stable and reliable} to {The system shall not be unavailable more than 1 hour per 1000 hours of operation} to make constraint more clear. Updated {Errors must be resolved quickly} to {The system shall be restartable in less than 20 seconds after a failure at least 95% of the time} for same reason"
     }
   ]
 }

@@ -1,0 +1,12 @@
+openai
+groq
+python-dotenv
+
+google-play-scraper
+pandas
+requests
+beautifulsoup4
+ipython
+
+nltk
+num2words

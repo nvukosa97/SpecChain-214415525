@@ -4,21 +4,7 @@
 import subprocess
 import sys
 
-def install_if_missing(package):
-    try:
-        __import__(package)
-    except ImportError:
-        print(f"Installing {package}...")
-        subprocess.check_call([sys.executable, "-m", "pip", "install", package])
 
-packages = [
-    "openai",
-    "groq"
-    
-]
-
-for p in packages:
-    install_if_missing(p)
 
 import openai
 import os

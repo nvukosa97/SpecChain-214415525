@@ -3,23 +3,7 @@
 import subprocess
 import sys
 
-def install_if_missing(package):
-    try:
-        __import__(package)
-    except ImportError:
-        print(f"Installing {package}...")
-        subprocess.check_call([sys.executable, "-m", "pip", "install", package])
 
-packages = [
-    "google_play_scraper",
-    "pandas",
-    "requests",
-    "bs4",
-    "IPython"
-]
-
-for p in packages:
-    install_if_missing(p)
 # Import required libraries
 from google_play_scraper import app, reviews_all  # For scraping Google Play Store
 import pandas as pd  # For data manipulation and analysis

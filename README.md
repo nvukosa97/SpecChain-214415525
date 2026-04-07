@@ -4,6 +4,7 @@
 
 ### Application
 - **Wysa**
+- Mental Wellbeing AI application that includes an AI mental health coach chatbot, meditation exercises and mood tracking.
 
 ### Dataset
 - Data collected using Google Play scraper  

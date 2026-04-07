@@ -20,29 +20,37 @@
    cd SpecChain-214415525
    ```
 
-2. **Create environment file**
+   or
+
+   
+   ```bash
+   git clone https://github.com/nvukosa97/SpecChain-214415525.git
+   cd SpecChain-214415525
+   ```
+
+3. **Create environment file**
    ```bash
    cp .env.example .env
    ```
 
-3. **Add your Groq API key**
+4. **Add your Groq API key**
    - Open `.env` and add:
      ```
      GROQ_API_KEY=your_actual_key_here
      ```
    - If you need a key: https://console.groq.com/keys
 
-4. **Install dependencies**
+5. **Install dependencies**
    ```bash
    python -m pip install -r requirements.txt
    ```
 
-5. **Run the pipeline**
+6. **Run the pipeline**
    ```bash
    python src/run_all.py
    ```
 
-6. **View results**
+7. **View results**
    - Open: `metrics/metrics_summary.json`  
    - Note: Comparison metrics may differ from original metrics
 

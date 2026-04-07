@@ -33,7 +33,7 @@
    cp .env.example .env
    ```
 
-4. **Add your Groq API key (I can't upload my key due to Git security restrictions if needed please email me)**
+4. **Add your Groq API key (I can't upload my key due to Git security restrictions if needed please email me nvukosa@my.yorku.ca)**
    - Open `.env` and add:
      ```
      GROQ_API_KEY=your_actual_key_here
